@@ -1,0 +1,21 @@
+.container {
+  background: #181818;
+  color: white;
+  cursor: default;
+  display: flex;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  height: 100vh;
+  line-height: 1.5;
+  overflow: auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+  user-select: none;
+  width: 100vw;
+}
+
+.container *:focus {
+  outline: none;
+}
